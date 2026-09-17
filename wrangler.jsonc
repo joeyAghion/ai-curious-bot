@@ -1,0 +1,18 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "claude-usage-request-notifier",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-17",
+  "triggers": {
+    "crons": ["5 * * * *"]
+  },
+  "kv_namespaces": [
+    { "binding": "KV", "id": "0cdfe2fc92ee4fcc8f48da3e49d80133" }
+  ],
+  "vars": {
+    "SLACK_CHANNEL_ID": "C034LSACD"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
