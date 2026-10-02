@@ -158,7 +158,7 @@ async function fetchThreadReplies(env: Env, channel: string, threadTs: string): 
 
 function messageFor(request: SpendLimitIncreaseRequest, mention: string | null): string {
   const who = mention ?? `*${request.actor.name}*`;
-  return `🚀 ${who} recently requested more Claude usage — sounds like you're deep into something! Mind sharing a quick note here about what you're building? Reply in this thread and I'll bump your limit. Others might pick up a new technique from it too. 🧵`;
+  return `🚀 ${who} recently requested more Claude usage — sounds like you're deep into something! Mind sharing a quick note or link here about what you're building? Reply in this thread and I'll bump your limit. Others might pick up a new technique from it too. 🧵`;
 }
 
 function findExplanationReply(replies: SlackMessage[], requesterSlackId: string): SlackMessage | null {

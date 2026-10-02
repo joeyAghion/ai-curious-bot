@@ -4,7 +4,7 @@
   "main": "src/index.ts",
   "compatibility_date": "2026-09-17",
   "triggers": {
-    "crons": ["*/3 * * * *"]
+    "crons": ["*/30 * * * *"]
   },
   "kv_namespaces": [
     { "binding": "KV", "id": "66cc7adcb30c420694bf3443937bb6d9" }
