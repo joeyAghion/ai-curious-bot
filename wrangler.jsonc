@@ -1,13 +1,13 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "claude-usage-request-notifier",
+  "name": "ai-curious-bot",
   "main": "src/index.ts",
   "compatibility_date": "2026-09-17",
   "triggers": {
-    "crons": ["5 * * * *"]
+    "crons": ["*/3 * * * *"]
   },
   "kv_namespaces": [
-    { "binding": "KV", "id": "0cdfe2fc92ee4fcc8f48da3e49d80133" }
+    { "binding": "KV", "id": "66cc7adcb30c420694bf3443937bb6d9" }
   ],
   "vars": {
     "SLACK_CHANNEL_ID": "C034LSACD"
