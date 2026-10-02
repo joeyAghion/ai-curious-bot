@@ -10,7 +10,7 @@
     { "binding": "KV", "id": "66cc7adcb30c420694bf3443937bb6d9" }
   ],
   "vars": {
-    "SLACK_CHANNEL_ID": "C034LSACD"
+    "SLACK_CHANNEL_ID": "CAPQS2MGX"
   },
   "observability": {
     "enabled": true
